@@ -42,7 +42,7 @@ static String getMessage(Socket socket) throws IOException {
             int port=4104;
             Socket socket = new Socket(hostname, port);
             System.out.println("""
-                    Welcome to JDiscord
+                    Welcome to Discord
                     If you want to send a message to the server, please enter the message in the console
                     """);
             Scanner scanner = new Scanner(System.in);
